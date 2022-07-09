@@ -22,7 +22,7 @@ body {
 
 /* PAGE CONTAINER STYLING */
 .page-container {
-    overflow-y: auto;
+    word-break: break-word;
     line-height: 1.6;
 }
 
