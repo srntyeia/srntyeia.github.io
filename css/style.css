@@ -1,9 +1,4 @@
 /* GENERAL */
-* {
-    margin: 0;
-    padding: 0;
-}
-
 html {
     height: 100%;
     height: 100%;
@@ -27,8 +22,6 @@ body {
 
 /* PAGE CONTAINER STYLING */
 .page-container {
-    word-break: break-word;
-    overflow-y: auto;
     line-height: 1.6;
 }
 
@@ -42,15 +35,8 @@ body {
 
 /* CENTER COLUMN */
 #page-content-center-column {
-    flex: 1 1;
     height: 100%;
     padding: max(0px, env(safe-area-inset-top)) max(0.5rem, env(safe-area-inset-right)) 0 max(0.5rem, env(safe-area-inset-left));
-}
-
-#page-content-center-column > * {
-    width: 100%;
-    max-width: 740px;
-    margin: 0 auto;
 }
 
 /* MEDIA */
