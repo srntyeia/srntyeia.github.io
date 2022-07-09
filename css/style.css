@@ -22,6 +22,7 @@ body {
 
 /* PAGE CONTAINER STYLING */
 .page-container {
+    overflow-y: auto;
     line-height: 1.6;
 }
 
