@@ -12,6 +12,7 @@ body {
     height: 100%;
     min-height: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
     /*background: linear-gradient(90deg, grey 50%, dimgrey 50%);
      */
     background-color: grey;
